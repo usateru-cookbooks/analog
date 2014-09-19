@@ -1,0 +1,352 @@
+I, [2014-09-17T17:20:49.654902 #14359]  INFO -- default-centos-65: -----> Cleaning up any prior instances of <default-centos-65>
+I, [2014-09-17T17:20:49.655129 #14359]  INFO -- default-centos-65: -----> Destroying <default-centos-65>...
+I, [2014-09-17T17:20:49.656239 #14359]  INFO -- default-centos-65: Finished destroying <default-centos-65> (0m0.00s).
+I, [2014-09-17T17:20:49.656504 #14359]  INFO -- default-centos-65: -----> Testing <default-centos-65>
+I, [2014-09-17T17:20:49.656646 #14359]  INFO -- default-centos-65: -----> Creating <default-centos-65>...
+I, [2014-09-17T17:20:50.626405 #14359]  INFO -- default-centos-65: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2014-09-17T17:20:50.990777 #14359]  INFO -- default-centos-65: ==> default: Importing base box 'opscode-centos-6.5'...
+[KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 90%[KI, [2014-09-17T17:21:18.888093 #14359]  INFO -- default-centos-65: ==> default: Matching MAC address for NAT networking...
+I, [2014-09-17T17:21:19.587409 #14359]  INFO -- default-centos-65: ==> default: Setting the name of the VM: default-centos-65_default_1410942079541_24251
+I, [2014-09-17T17:21:20.358819 #14359]  INFO -- default-centos-65: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2014-09-17T17:21:20.428817 #14359]  INFO -- default-centos-65: ==> default: Clearing any previously set network interfaces...
+I, [2014-09-17T17:21:20.541087 #14359]  INFO -- default-centos-65: ==> default: Preparing network interfaces based on configuration...
+I, [2014-09-17T17:21:20.541385 #14359]  INFO -- default-centos-65:     default: Adapter 1: nat
+I, [2014-09-17T17:21:20.651127 #14359]  INFO -- default-centos-65: ==> default: Forwarding ports...
+I, [2014-09-17T17:21:20.716079 #14359]  INFO -- default-centos-65:     default: 22 => 2200 (adapter 1)
+I, [2014-09-17T17:21:21.091028 #14359]  INFO -- default-centos-65: ==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...I, [2014-09-17T17:21:21.729733 #14359]  INFO -- default-centos-65:     default: SSH address: 127.0.0.1:2200
+I, [2014-09-17T17:21:21.729911 #14359]  INFO -- default-centos-65:     default: SSH username: vagrant
+I, [2014-09-17T17:21:21.730067 #14359]  INFO -- default-centos-65:     default: SSH auth method: private key
+I, [2014-09-17T17:21:36.896095 #14359]  INFO -- default-centos-65:     default: Warning: Connection timeout. Retrying...
+I, [2014-09-17T17:21:45.434822 #14359]  INFO -- default-centos-65: ==> default: Machine booted and ready!
+I, [2014-09-17T17:21:45.459133 #14359]  INFO -- default-centos-65: ==> default: Checking for guest additions in VM...
+I, [2014-09-17T17:21:45.481034 #14359]  INFO -- default-centos-65: ==> default: Setting hostname...
+I, [2014-09-17T17:21:51.711218 #14359]  INFO -- default-centos-65: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2014-09-17T17:21:53.079383 #14359]  INFO -- default-centos-65: Vagrant instance <default-centos-65> created.
+I, [2014-09-17T17:21:53.081423 #14359]  INFO -- default-centos-65: Finished creating <default-centos-65> (1m3.42s).
+I, [2014-09-17T17:21:53.081596 #14359]  INFO -- default-centos-65: -----> Converging <default-centos-65>...
+I, [2014-09-17T17:21:53.082649 #14359]  INFO -- default-centos-65: Preparing files for transfer
+I, [2014-09-17T17:21:53.083042 #14359]  INFO -- default-centos-65: Berksfile, Cheffile, cookbooks/, or metadata.rb not found so Chef will run with effectively no cookbooks. Is this intended?
+I, [2014-09-17T17:21:53.083435 #14359]  INFO -- default-centos-65: Removing non-cookbook files before transfer
+I, [2014-09-17T17:21:53.477005 #14359]  INFO -- default-centos-65: -----> Installing Chef Omnibus (true)
+I, [2014-09-17T17:21:53.477086 #14359]  INFO -- default-centos-65: downloading https://www.getchef.com/chef/install.sh
+I, [2014-09-17T17:21:53.477116 #14359]  INFO -- default-centos-65:   to file /tmp/install.sh
+I, [2014-09-17T17:21:53.477138 #14359]  INFO -- default-centos-65: trying wget...
+I, [2014-09-17T17:21:54.337863 #14359]  INFO -- default-centos-65: trying curl...
+  % TotaI, [2014-09-17T17:21:55.187759 #14359]  INFO -- default-centos-65: l    % Received % Xferd  Average Speed   Time    Time     Time  Current
+I, [2014-09-17T17:21:55.187860 #14359]  INFO -- default-centos-65:                           Dload  Upload   Total   Spent    Left  Speed
+I, [2014-09-17T17:21:55.187889 #14359]  INFO -- default-centos-65:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+I, [2014-09-17T17:21:55.787907 #14359]  INFO -- default-centos-65:  98 16519   98 16177    0     0  11631      0  0:00:01  0:00:01 --:--:-- 26916100 16519  100 16519    0     0  11876      0  0:00:01  0:00:01 --:--:-- 27485
+I, [2014-09-17T17:21:55.887416 #14359]  INFO -- default-centos-65: Downloading Chef  for el...
+I, [2014-09-17T17:21:55.890991 #14359]  INFO -- default-centos-65: downloading https://www.getchef.com/chef/metadata?v=&prerelease=false&nightlies=false&p=el&pv=6&m=x86_64
+I, [2014-09-17T17:21:55.891073 #14359]  INFO -- default-centos-65:   to file /tmp/install.sh.2014/metadata.txt
+I, [2014-09-17T17:21:55.891097 #14359]  INFO -- default-centos-65: trying wget...
+I, [2014-09-17T17:21:56.515862 #14359]  INFO -- default-centos-65: trying curl...
+I, [2014-09-17T17:21:57.367789 #14359]  INFO -- default-centos-65: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.16.0-1.el6.x86_64.rpm
+I, [2014-09-17T17:21:57.367868 #14359]  INFO -- default-centos-65: md5	5c8cfdbab2684148e2bb859b736b6827
+I, [2014-09-17T17:21:57.367891 #14359]  INFO -- default-centos-65: sha256	e4d0236cc495d080f8e7a01704e2ef554e12088687e4fe946ee8027b79871bbb
+I, [2014-09-17T17:21:57.371443 #14359]  INFO -- default-centos-65: downloaded metadata file looks valid...
+I, [2014-09-17T17:21:57.391103 #14359]  INFO -- default-centos-65: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-11.16.0-1.el6.x86_64.rpm
+I, [2014-09-17T17:21:57.391217 #14359]  INFO -- default-centos-65:   to file /tmp/install.sh.2014/chef-11.16.0-1.el6.x86_64.rpm
+I, [2014-09-17T17:21:57.391266 #14359]  INFO -- default-centos-65: trying wget...
+I, [2014-09-17T17:22:37.286683 #14359]  INFO -- default-centos-65: Comparing checksum with sha256sum...
+I, [2014-09-17T17:22:37.516963 #14359]  INFO -- default-centos-65: Installing Chef 
+I, [2014-09-17T17:22:37.517044 #14359]  INFO -- default-centos-65: installing with rpm...
+I, [2014-09-17T17:22:37.867681 #14359]  INFO -- default-centos-65: 警告: /tmp/install.sh.2014/chef-11.16.0-1.el6.x86_64.rpm: ヘッダ V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+準備中...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)I, [2014-09-17T17:22:39.970987 #14359]  INFO -- default-centos-65: #########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
+   1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)I, [2014-09-17T17:22:43.351222 #14359]  INFO -- default-centos-65: ########################################### ( 99%)########################################### [100%]
+I, [2014-09-17T17:22:44.600879 #14359]  INFO -- default-centos-65: Thank you for installing Chef!
+I, [2014-09-17T17:22:44.660767 #14359]  INFO -- default-centos-65: Transfering files to <default-centos-65>
+I, [2014-09-17T17:22:46.103298 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:44+00:00] INFO: Forking chef instance to converge...
+I, [2014-09-17T17:22:46.116812 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:44+00:00] WARN: 
+I, [2014-09-17T17:22:46.116890 #14359]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:22:46.116934 #14359]  INFO -- default-centos-65: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-09-17T17:22:46.116962 #14359]  INFO -- default-centos-65: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-09-17T17:22:46.116988 #14359]  INFO -- default-centos-65: attacks.
+I, [2014-09-17T17:22:46.117013 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117058 #14359]  INFO -- default-centos-65: To fix this issue add an entry like this to your configuration file:
+I, [2014-09-17T17:22:46.117083 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117107 #14359]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:22:46.117132 #14359]  INFO -- default-centos-65:   # Verify all HTTPS connections (recommended)
+I, [2014-09-17T17:22:46.117156 #14359]  INFO -- default-centos-65:   ssl_verify_mode :verify_peer
+I, [2014-09-17T17:22:46.117180 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117204 #14359]  INFO -- default-centos-65:   # OR, Verify only connections to chef-server
+I, [2014-09-17T17:22:46.117234 #14359]  INFO -- default-centos-65:   verify_api_cert true
+I, [2014-09-17T17:22:46.117259 #14359]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:22:46.117283 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117307 #14359]  INFO -- default-centos-65: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-09-17T17:22:46.117331 #14359]  INFO -- default-centos-65: `knife ssl check` command like so:
+I, [2014-09-17T17:22:46.117355 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117393 #14359]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:22:46.117418 #14359]  INFO -- default-centos-65:   knife ssl check -c /tmp/kitchen/solo.rb
+I, [2014-09-17T17:22:46.117442 #14359]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:22:46.117466 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.117495 #14359]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:22:46.117520 #14359]  INFO -- default-centos-65: 
+I, [2014-09-17T17:22:46.172652 #14359]  INFO -- default-centos-65: Starting Chef Client, version 11.16.0[0m
+I, [2014-09-17T17:22:46.172737 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:44+00:00] INFO: *** Chef 11.16.0 ***
+I, [2014-09-17T17:22:46.172761 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:44+00:00] INFO: Chef-client pid: 2112
+I, [2014-09-17T17:22:48.310604 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Setting the run_list to ["recipe[analog::default]"] from CLI options
+I, [2014-09-17T17:22:48.313103 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Run List is [recipe[analog::default]]
+I, [2014-09-17T17:22:48.313146 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Run List expands to [analog::default]
+I, [2014-09-17T17:22:48.314083 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Starting Chef Run for default-centos-65
+I, [2014-09-17T17:22:48.314126 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Running start handlers
+I, [2014-09-17T17:22:48.314149 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] INFO: Start handlers complete.
+I, [2014-09-17T17:22:48.315127 #14359]  INFO -- default-centos-65: Compiling Cookbooks...[0m
+I, [2014-09-17T17:22:48.315169 #14359]  INFO -- default-centos-65: [0m
+I, [2014-09-17T17:22:48.315192 #14359]  INFO -- default-centos-65: Running handlers:[0m
+I, [2014-09-17T17:22:48.315213 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] ERROR: Running exception handlers
+I, [2014-09-17T17:22:48.315233 #14359]  INFO -- default-centos-65: Running handlers complete
+I, [2014-09-17T17:22:48.315253 #14359]  INFO -- default-centos-65: [0m
+I, [2014-09-17T17:22:48.316190 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] ERROR: Exception handlers complete
+I, [2014-09-17T17:22:48.316246 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-09-17T17:22:48.316271 #14359]  INFO -- default-centos-65: Chef Client failed. 0 resources updated in 2.214246474 seconds[0m
+I, [2014-09-17T17:22:48.331389 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] ERROR: Cookbook analog not found. If you're loading analog from another cookbook, make sure you configure the dependency in your metadata
+I, [2014-09-17T17:22:48.363763 #14359]  INFO -- default-centos-65: [2014-09-17T08:22:47+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-09-17T17:22:48.390009 #14359] ERROR -- default-centos-65: Converge failed on instance <default-centos-65>.
+E, [2014-09-17T17:22:48.390146 #14359] ERROR -- default-centos-65: ------Exception-------
+E, [2014-09-17T17:22:48.390190 #14359] ERROR -- default-centos-65: Class: Kitchen::ActionFailed
+E, [2014-09-17T17:22:48.390266 #14359] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-09-17T17:22:48.390297 #14359] ERROR -- default-centos-65: ---Nested Exception---
+E, [2014-09-17T17:22:48.390316 #14359] ERROR -- default-centos-65: Class: Kitchen::SSHFailed
+E, [2014-09-17T17:22:48.390334 #14359] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-09-17T17:22:48.390353 #14359] ERROR -- default-centos-65: ------Backtrace-------
+E, [2014-09-17T17:22:48.390371 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-09-17T17:22:48.390397 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-09-17T17:22:48.390435 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-09-17T17:22:48.390467 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-09-17T17:22:48.390505 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-09-17T17:22:48.390570 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-09-17T17:22:48.390610 #14359] ERROR -- default-centos-65: /home/usa/.chefdk/gem/ruby/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-09-17T17:22:48.390648 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-09-17T17:22:48.390681 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-09-17T17:22:48.390699 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `call'
+E, [2014-09-17T17:22:48.390717 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-09-17T17:22:48.390735 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-09-17T17:22:48.390753 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-09-17T17:22:48.390772 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:282:in `action'
+E, [2014-09-17T17:22:48.390802 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-09-17T17:22:48.390855 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-09-17T17:22:48.390875 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-09-17T17:22:48.390893 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `each'
+E, [2014-09-17T17:22:48.390912 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-09-17T17:22:48.390930 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:141:in `verify'
+E, [2014-09-17T17:22:48.390948 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:170:in `block in test'
+E, [2014-09-17T17:22:48.390981 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-09-17T17:22:48.391002 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:166:in `test'
+E, [2014-09-17T17:22:48.391021 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-09-17T17:22:48.391039 #14359] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-09-17T17:22:48.391058 #14359] ERROR -- default-centos-65: ----------------------
+I, [2014-09-17T17:27:18.528863 #15621]  INFO -- default-centos-65: -----> Converging <default-centos-65>...
+I, [2014-09-17T17:27:18.532798 #15621]  INFO -- default-centos-65: Preparing files for transfer
+I, [2014-09-17T17:27:18.533165 #15621]  INFO -- default-centos-65: Berksfile, Cheffile, cookbooks/, or metadata.rb not found so Chef will run with effectively no cookbooks. Is this intended?
+I, [2014-09-17T17:27:18.533590 #15621]  INFO -- default-centos-65: Removing non-cookbook files before transfer
+I, [2014-09-17T17:27:19.112267 #15621]  INFO -- default-centos-65: Transfering files to <default-centos-65>
+I, [2014-09-17T17:27:20.541210 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:19+00:00] INFO: Forking chef instance to converge...
+I, [2014-09-17T17:27:20.544370 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:19+00:00] WARN: 
+I, [2014-09-17T17:27:20.544429 #15621]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:27:20.544453 #15621]  INFO -- default-centos-65: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-09-17T17:27:20.544492 #15621]  INFO -- default-centos-65: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-09-17T17:27:20.544514 #15621]  INFO -- default-centos-65: attacks.
+I, [2014-09-17T17:27:20.544550 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544580 #15621]  INFO -- default-centos-65: To fix this issue add an entry like this to your configuration file:
+I, [2014-09-17T17:27:20.544600 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544621 #15621]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:27:20.544641 #15621]  INFO -- default-centos-65:   # Verify all HTTPS connections (recommended)
+I, [2014-09-17T17:27:20.544672 #15621]  INFO -- default-centos-65:   ssl_verify_mode :verify_peer
+I, [2014-09-17T17:27:20.544693 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544714 #15621]  INFO -- default-centos-65:   # OR, Verify only connections to chef-server
+I, [2014-09-17T17:27:20.544734 #15621]  INFO -- default-centos-65:   verify_api_cert true
+I, [2014-09-17T17:27:20.544767 #15621]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:27:20.544788 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544809 #15621]  INFO -- default-centos-65: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-09-17T17:27:20.544840 #15621]  INFO -- default-centos-65: `knife ssl check` command like so:
+I, [2014-09-17T17:27:20.544871 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544891 #15621]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:27:20.544912 #15621]  INFO -- default-centos-65:   knife ssl check -c /tmp/kitchen/solo.rb
+I, [2014-09-17T17:27:20.544940 #15621]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:27:20.544961 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.544981 #15621]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:27:20.545005 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:20.587929 #15621]  INFO -- default-centos-65: Starting Chef Client, version 11.16.0[0m
+I, [2014-09-17T17:27:20.588008 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:19+00:00] INFO: *** Chef 11.16.0 ***
+I, [2014-09-17T17:27:20.588037 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:19+00:00] INFO: Chef-client pid: 2295
+I, [2014-09-17T17:27:22.376766 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Setting the run_list to ["recipe[analog::default]"] from CLI options
+I, [2014-09-17T17:27:22.380163 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Run List is [recipe[analog::default]]
+I, [2014-09-17T17:27:22.380219 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Run List expands to [analog::default]
+I, [2014-09-17T17:27:22.381586 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Starting Chef Run for default-centos-65
+I, [2014-09-17T17:27:22.381629 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Running start handlers
+I, [2014-09-17T17:27:22.381652 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] INFO: Start handlers complete.
+I, [2014-09-17T17:27:22.381688 #15621]  INFO -- default-centos-65: Compiling Cookbooks...[0m
+I, [2014-09-17T17:27:22.382690 #15621]  INFO -- default-centos-65: 
+I, [2014-09-17T17:27:22.382735 #15621]  INFO -- default-centos-65: [0m
+I, [2014-09-17T17:27:22.382759 #15621]  INFO -- default-centos-65: Running handlers:[0m
+I, [2014-09-17T17:27:22.382783 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] ERROR: Running exception handlers
+I, [2014-09-17T17:27:22.382807 #15621]  INFO -- default-centos-65: Running handlers complete
+I, [2014-09-17T17:27:22.382828 #15621]  INFO -- default-centos-65: [0m[2014-09-17T08:27:21+00:00] ERROR: Exception handlers complete
+I, [2014-09-17T17:27:22.382849 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2014-09-17T17:27:22.384187 #15621]  INFO -- default-centos-65: Chef Client failed. 0 resources updated in 1.842505565 seconds[0m
+I, [2014-09-17T17:27:22.399456 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] ERROR: Cookbook analog not found. If you're loading analog from another cookbook, make sure you configure the dependency in your metadata
+I, [2014-09-17T17:27:22.432872 #15621]  INFO -- default-centos-65: [2014-09-17T08:27:21+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2014-09-17T17:27:22.457349 #15621] ERROR -- default-centos-65: Converge failed on instance <default-centos-65>.
+E, [2014-09-17T17:27:22.457464 #15621] ERROR -- default-centos-65: ------Exception-------
+E, [2014-09-17T17:27:22.457490 #15621] ERROR -- default-centos-65: Class: Kitchen::ActionFailed
+E, [2014-09-17T17:27:22.457511 #15621] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-09-17T17:27:22.457547 #15621] ERROR -- default-centos-65: ---Nested Exception---
+E, [2014-09-17T17:27:22.457569 #15621] ERROR -- default-centos-65: Class: Kitchen::SSHFailed
+E, [2014-09-17T17:27:22.457589 #15621] ERROR -- default-centos-65: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2014-09-17T17:27:22.457616 #15621] ERROR -- default-centos-65: ------Backtrace-------
+E, [2014-09-17T17:27:22.457636 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2014-09-17T17:27:22.457655 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2014-09-17T17:27:22.457675 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2014-09-17T17:27:22.457694 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-09-17T17:27:22.457713 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-09-17T17:27:22.457732 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-09-17T17:27:22.457753 #15621] ERROR -- default-centos-65: /home/usa/.chefdk/gem/ruby/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-09-17T17:27:22.457773 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-09-17T17:27:22.457792 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-09-17T17:27:22.457811 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `call'
+E, [2014-09-17T17:27:22.457830 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-09-17T17:27:22.457849 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-09-17T17:27:22.457888 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-09-17T17:27:22.457908 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:282:in `action'
+E, [2014-09-17T17:27:22.457927 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-09-17T17:27:22.457948 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-09-17T17:27:22.457968 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-09-17T17:27:22.457987 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `each'
+E, [2014-09-17T17:27:22.458006 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-09-17T17:27:22.458025 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-09-17T17:27:22.458044 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-09-17T17:27:22.458063 #15621] ERROR -- default-centos-65: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-09-17T17:27:22.458082 #15621] ERROR -- default-centos-65: ----------------------
+I, [2014-09-17T17:32:27.592303 #15688]  INFO -- default-centos-65: -----> Converging <default-centos-65>...
+I, [2014-09-17T17:32:27.608807 #15688]  INFO -- default-centos-65: Preparing files for transfer
+I, [2014-09-17T17:32:27.609018 #15688]  INFO -- default-centos-65: Resolving cookbook dependencies with Berkshelf 3.1.5...
+I, [2014-09-17T17:32:29.893571 #15688]  INFO -- default-centos-65: Removing non-cookbook files before transfer
+I, [2014-09-17T17:32:30.400852 #15688]  INFO -- default-centos-65: Transfering files to <default-centos-65>
+I, [2014-09-17T17:32:31.922294 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:31+00:00] INFO: Forking chef instance to converge...
+I, [2014-09-17T17:32:31.925556 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:31+00:00] WARN: 
+I, [2014-09-17T17:32:31.925610 #15688]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:32:31.925635 #15688]  INFO -- default-centos-65: SSL validation of HTTPS requests is disabled. HTTPS connections are still
+I, [2014-09-17T17:32:31.925657 #15688]  INFO -- default-centos-65: encrypted, but chef is not able to detect forged replies or man in the middle
+I, [2014-09-17T17:32:31.925679 #15688]  INFO -- default-centos-65: attacks.
+I, [2014-09-17T17:32:31.925699 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.925720 #15688]  INFO -- default-centos-65: To fix this issue add an entry like this to your configuration file:
+I, [2014-09-17T17:32:31.925741 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.925761 #15688]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:32:31.925782 #15688]  INFO -- default-centos-65:   # Verify all HTTPS connections (recommended)
+I, [2014-09-17T17:32:31.925803 #15688]  INFO -- default-centos-65:   ssl_verify_mode :verify_peer
+I, [2014-09-17T17:32:31.925824 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.925845 #15688]  INFO -- default-centos-65:   # OR, Verify only connections to chef-server
+I, [2014-09-17T17:32:31.925878 #15688]  INFO -- default-centos-65:   verify_api_cert true
+I, [2014-09-17T17:32:31.925900 #15688]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:32:31.925920 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.925941 #15688]  INFO -- default-centos-65: To check your SSL configuration, or troubleshoot errors, you can use the
+I, [2014-09-17T17:32:31.925962 #15688]  INFO -- default-centos-65: `knife ssl check` command like so:
+I, [2014-09-17T17:32:31.925982 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.926002 #15688]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:32:31.926023 #15688]  INFO -- default-centos-65:   knife ssl check -c /tmp/kitchen/solo.rb
+I, [2014-09-17T17:32:31.926043 #15688]  INFO -- default-centos-65: ```
+I, [2014-09-17T17:32:31.926063 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.926084 #15688]  INFO -- default-centos-65: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+I, [2014-09-17T17:32:31.926104 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:31.969816 #15688]  INFO -- default-centos-65: Starting Chef Client, version 11.16.0[0m
+I, [2014-09-17T17:32:31.969895 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:31+00:00] INFO: *** Chef 11.16.0 ***
+I, [2014-09-17T17:32:31.970637 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:31+00:00] INFO: Chef-client pid: 2478
+I, [2014-09-17T17:32:33.779760 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Setting the run_list to ["recipe[analog::default]"] from CLI options
+I, [2014-09-17T17:32:33.784083 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Run List is [recipe[analog::default]]
+I, [2014-09-17T17:32:33.784141 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Run List expands to [analog::default]
+I, [2014-09-17T17:32:33.784165 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Starting Chef Run for default-centos-65
+I, [2014-09-17T17:32:33.784186 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Running start handlers
+I, [2014-09-17T17:32:33.784207 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: Start handlers complete.
+I, [2014-09-17T17:32:33.786448 #15688]  INFO -- default-centos-65: Compiling Cookbooks...[0m
+I, [2014-09-17T17:32:33.789464 #15688]  INFO -- default-centos-65: Converging 3 resources[0m
+Recipe: analog::default[0mI, [2014-09-17T17:32:33.790842 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:33.790886 #15688]  INFO -- default-centos-65:   * remote_file[/tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm] action create[2014-09-17T08:32:32+00:00] INFO: Processing remote_file[/tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm] action create (analog::default line 21)
+I, [2014-09-17T17:32:33.791929 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:32+00:00] INFO: remote_file[/tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm] created file /tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm
+I, [2014-09-17T17:32:33.791985 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:33.792009 #15688]  INFO -- default-centos-65:     [32m- create new file /tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm[0m
+I, [2014-09-17T17:32:36.336848 #15688]  INFO -- default-centos-65: [2014-09-17T08:32:35+00:00] INFO: remote_file[/tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm] updated file contents /tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm
+I, [2014-09-17T17:32:36.341767 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:36.341826 #15688]  INFO -- default-centos-65:     [32m- update content in file /tmp/kitchen/cache/analog-6.0.4-1.x86_64.rpm from none to 6b4ea6[0m
+I, [2014-09-17T17:32:36.341851 #15688]  INFO -- default-centos-65:     [37m(new content is binary, diff output suppressed)[0m
+I, [2014-09-17T17:32:36.521104 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:36.521183 #15688]  INFO -- default-centos-65:     [32m- restore selinux security context[0m
+I, [2014-09-17T17:32:36.522271 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:32:36.522330 #15688]  INFO -- default-centos-65: [0m  * package[perl] action install[2014-09-17T08:32:35+00:00] INFO: Processing package[perl] action install (analog::default line 25)
+I, [2014-09-17T17:33:11.406208 #15688]  INFO -- default-centos-65: [2014-09-17T08:33:10+00:00] INFO: package[perl] installing perl-5.10.1-136.el6 from base repository
+I, [2014-09-17T17:33:22.056827 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:33:22.056931 #15688]  INFO -- default-centos-65:     [32m- install version 5.10.1-136.el6 of package perl[0m
+I, [2014-09-17T17:33:22.056957 #15688]  INFO -- default-centos-65: [0m  * package[analog] action install[2014-09-17T08:33:21+00:00] INFO: Processing package[analog] action install (analog::default line 29)
+I, [2014-09-17T17:33:22.842817 #15688]  INFO -- default-centos-65: 
+I, [2014-09-17T17:33:22.842899 #15688]  INFO -- default-centos-65:     [32m- install version 6.0.4-1 of package analog[0m
+I, [2014-09-17T17:33:22.842924 #15688]  INFO -- default-centos-65: [0m[2014-09-17T08:33:21+00:00] INFO: Chef Run complete in 49.084464582 seconds
+I, [2014-09-17T17:33:22.842947 #15688]  INFO -- default-centos-65: [0m
+I, [2014-09-17T17:33:22.842981 #15688]  INFO -- default-centos-65: Running handlers:[0m
+I, [2014-09-17T17:33:22.843003 #15688]  INFO -- default-centos-65: [2014-09-17T08:33:21+00:00] INFO: Running report handlers
+I, [2014-09-17T17:33:22.843025 #15688]  INFO -- default-centos-65: Running handlers complete
+I, [2014-09-17T17:33:22.843046 #15688]  INFO -- default-centos-65: [0m[2014-09-17T08:33:21+00:00] INFO: Report handlers complete
+I, [2014-09-17T17:33:22.843068 #15688]  INFO -- default-centos-65: Chef Client finished, 3/3 resources updated in 50.94619723 seconds[0m
+I, [2014-09-17T17:33:22.988891 #15688]  INFO -- default-centos-65: Finished converging <default-centos-65> (0m55.38s).
+I, [2014-09-17T17:36:09.190059 #15736]  INFO -- default-centos-65: -----> Setting up <default-centos-65>...
+Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  8%)Fetching: thor-0.19.0.gem ( 14%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 30%)Fetching: thor-0.19.0.gem ( 36%)Fetching: thor-0.19.0.gem ( 46%)Fetching: thor-0.19.0.gem ( 51%)Fetching: thor-0.19.0.gem ( 68%)Fetching: thor-0.19.0.gem ( 86%)Fetching: thor-0.19.0.gem ( 89%)I, [2014-09-17T17:36:46.235055 #15736]  INFO -- default-centos-65: Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2014-09-17T17:36:46.749807 #15736]  INFO -- default-centos-65: Fetching: busser-0.6.2.gemFetching: busser-0.6.2.gem ( 72%)Fetching: busser-0.6.2.gem (100%)Fetching: busser-0.6.2.gem (100%)
+I, [2014-09-17T17:36:46.773155 #15736]  INFO -- default-centos-65: Successfully installed thor-0.19.0
+I, [2014-09-17T17:36:46.773237 #15736]  INFO -- default-centos-65: Successfully installed busser-0.6.2
+I, [2014-09-17T17:36:46.773261 #15736]  INFO -- default-centos-65: 2 gems installed
+I, [2014-09-17T17:36:47.083188 #15736]  INFO -- default-centos-65: -----> Setting up Busser
+I, [2014-09-17T17:36:47.083282 #15736]  INFO -- default-centos-65: Creating BUSSER_ROOT in /tmp/busser
+I, [2014-09-17T17:36:47.083326 #15736]  INFO -- default-centos-65: Creating busser binstub
+I, [2014-09-17T17:36:58.327471 #15736]  INFO -- default-centos-65: Plugin bats installed (version 0.2.0)
+I, [2014-09-17T17:36:58.330504 #15736]  INFO -- default-centos-65: -----> Running postinstall for bats plugin
+I, [2014-09-17T17:36:58.403668 #15736]  INFO -- default-centos-65: Installed Bats to /tmp/busser/vendor/bats/bin/bats
+I, [2014-09-17T17:36:59.927683 #15736]  INFO -- default-centos-65: Plugin minitest installed (version 0.2.0)
+I, [2014-09-17T17:36:59.931848 #15736]  INFO -- default-centos-65: -----> Running postinstall for minitest plugin
+I, [2014-09-17T17:37:34.839866 #15736]  INFO -- default-centos-65: Plugin serverspec installed (version 0.2.6)
+I, [2014-09-17T17:37:34.844602 #15736]  INFO -- default-centos-65: -----> Running postinstall for serverspec plugin
+I, [2014-09-17T17:38:10.604650 #15736]  INFO -- default-centos-65: Finished setting up <default-centos-65> (2m1.41s).
+I, [2014-09-17T17:38:10.604758 #15736]  INFO -- default-centos-65: -----> Verifying <default-centos-65>...
+I, [2014-09-17T17:38:11.066185 #15736]  INFO -- default-centos-65: Suite path directory /tmp/busser/suites does not exist, skipping.
+I, [2014-09-17T17:38:11.216643 #15736]  INFO -- default-centos-65: Uploading /tmp/busser/suites/serverspec/localhost/default_spec.rb (mode=0644)
+I, [2014-09-17T17:38:11.674204 #15736]  INFO -- default-centos-65: Uploading /tmp/busser/suites/bats/basic_test.bats (mode=0644)
+I, [2014-09-17T17:38:12.116126 #15736]  INFO -- default-centos-65: Uploading /tmp/busser/suites/minitest/analog_spec.rb (mode=0644)
+I, [2014-09-17T17:38:12.562655 #15736]  INFO -- default-centos-65: -----> Running bats test suite
+[1G   バイナリが正しい場所にインストールされている[K[77G1/3[2GI, [2014-09-17T17:38:12.822750 #15736]  INFO -- default-centos-65: [1G ✓ バイナリが正しい場所にインストールされている[K
+I, [2014-09-17T17:38:12.822832 #15736]  INFO -- default-centos-65: [0m[1G   ファイルに実行権限がある[K[77G2/3[2G
+I, [2014-09-17T17:38:12.833227 #15736]  INFO -- default-centos-65: [1G ✓ ファイルに実行権限がある[K
+I, [2014-09-17T17:38:12.833309 #15736]  INFO -- default-centos-65: [0m[1G   正しいバージョンである[K[77G3/3[2G
+I, [2014-09-17T17:38:12.860865 #15736]  INFO -- default-centos-65: [1G ✓ 正しいバージョンである[K
+I, [2014-09-17T17:38:12.860954 #15736]  INFO -- default-centos-65: [0m
+I, [2014-09-17T17:38:12.860981 #15736]  INFO -- default-centos-65: 3 tests, 0 failures
+I, [2014-09-17T17:38:12.863366 #15736]  INFO -- default-centos-65: -----> Running minitest test suite
+I, [2014-09-17T17:38:12.951769 #15736]  INFO -- default-centos-65: /opt/chef/embedded/bin/ruby  -I"/opt/chef/embedded/lib/ruby/1.9.1" "/opt/chef/embedded/lib/ruby/1.9.1/rake/rake_test_loader.rb" "/tmp/busser/suites/minitest/analog_spec.rb" 
+I, [2014-09-17T17:38:13.086993 #15736]  INFO -- default-centos-65: Run options: --seed 20668
+I, [2014-09-17T17:38:13.087069 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.087099 #15736]  INFO -- default-centos-65: # Running tests:
+I, [2014-09-17T17:38:13.087120 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.104122 #15736]  INFO -- default-centos-65: ...
+I, [2014-09-17T17:38:13.104207 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.104239 #15736]  INFO -- default-centos-65: Finished tests in 0.014243s, 210.6325 tests/s, 210.6325 assertions/s.
+I, [2014-09-17T17:38:13.104261 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.104281 #15736]  INFO -- default-centos-65: 3 tests, 3 assertions, 0 failures, 0 errors, 0 skips
+I, [2014-09-17T17:38:13.111300 #15736]  INFO -- default-centos-65: -----> Running serverspec test suite
+I, [2014-09-17T17:38:13.211607 #15736]  INFO -- default-centos-65: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -S /opt/chef/embedded/bin/rspec /tmp/busser/suites/serverspec/localhost/default_spec.rb --color --format documentation
+I, [2014-09-17T17:38:13.390309 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.390389 #15736]  INFO -- default-centos-65: File "/usr/bin/analog"
+I, [2014-09-17T17:38:13.525607 #15736]  INFO -- default-centos-65: [32m  should be file[0m
+I, [2014-09-17T17:38:13.547752 #15736]  INFO -- default-centos-65: [32m  should be mode 755[0m
+I, [2014-09-17T17:38:13.547888 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.547940 #15736]  INFO -- default-centos-65: Command "/usr/bin/analog 2>/dev/null | grep 'analog 6.0'"
+I, [2014-09-17T17:38:13.562615 #15736]  INFO -- default-centos-65: [32m  should return exit status 0[0m
+I, [2014-09-17T17:38:13.562700 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.562729 #15736]  INFO -- default-centos-65: Package "analog"
+I, [2014-09-17T17:38:13.604622 #15736]  INFO -- default-centos-65: [32m  should be installed[0m
+I, [2014-09-17T17:38:13.604697 #15736]  INFO -- default-centos-65: 
+I, [2014-09-17T17:38:13.604721 #15736]  INFO -- default-centos-65: Finished in 0.21256 seconds
+I, [2014-09-17T17:38:13.604745 #15736]  INFO -- default-centos-65: [32m4 examples, 0 failures[0m
+I, [2014-09-17T17:38:13.628754 #15736]  INFO -- default-centos-65: Finished verifying <default-centos-65> (0m3.02s).
+I, [2014-09-17T17:41:33.582652 #15796]  INFO -- default-centos-65: -----> Destroying <default-centos-65>...
+I, [2014-09-17T17:41:35.671633 #15796]  INFO -- default-centos-65: ==> default: Forcing shutdown of VM...
+I, [2014-09-17T17:41:36.858277 #15796]  INFO -- default-centos-65: ==> default: Destroying VM and associated drives...
+I, [2014-09-17T17:41:37.420381 #15796]  INFO -- default-centos-65: Vagrant instance <default-centos-65> destroyed.
+I, [2014-09-17T17:41:37.422388 #15796]  INFO -- default-centos-65: Finished destroying <default-centos-65> (0m3.84s).
