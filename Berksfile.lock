@@ -1,0 +1,6 @@
+DEPENDENCIES
+  analog
+    path: site-cookbooks/analog
+
+GRAPH
+  analog (0.1.0)
